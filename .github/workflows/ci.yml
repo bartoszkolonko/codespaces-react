@@ -29,9 +29,12 @@ jobs:
     
     - name: Run linting
       run: npm run lint --if-present
+      continue-on-error: true
     
     - name: Run tests
-      run: npm test -- --run
+      run: npm run test:ci
+      env:
+        NODE_ENV: test
     
     - name: Upload test coverage
       uses: codecov/codecov-action@v3

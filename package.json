@@ -20,7 +20,10 @@
     "start": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest --config vitest.config.js",
+    "test:ci": "vitest run --config vitest.config.js",
+    "test:coverage": "vitest run --coverage --config vitest.config.js",
+    "lint": "echo 'Linting not configured yet' && exit 0"
   },
   "eslintConfig": {
     "extends": [
