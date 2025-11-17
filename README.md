@@ -1,10 +1,49 @@
-# GitHub Codespaces ♥️ React
+# 🔍 Pokédex Explorer - React App with PokeAPI Integration
+
+## 🌟 New Features Added!
+
+This React app now includes a complete **Pokemon integration** with the [PokeAPI](https://pokeapi.co/)! 
+
+### ✨ What You Can Do:
+- 🔍 **Search Pokemon** by name or ID (1-1010)
+- 🎲 **Discover Random Pokemon** with one click
+- 📊 **View Detailed Stats** including abilities, types, and base stats
+- 🖼️ **See Official Artwork** and sprite variants
+- 📱 **Responsive Design** that works on all devices
+
+### 🎯 Try These Examples:
+- Search: "pikachu", "charizard", "mewtwo"
+- IDs: "25", "150", "493" 
+- Click "Random Pokemon" for surprises!
+
+## 📋 Quick Start
+
+### Requirements
+- **Node.js 18+** (current version in environment: v12.22.12 - needs upgrade)
+
+### Development
+```bash
+npm install
+npm start
+```
+
+### GitHub Actions & Deployment
+- ✅ **CI/CD Pipeline** with automated testing
+- ✅ **GitHub Pages Deployment** configured
+- ✅ **Security Scanning** and dependency updates
+- ✅ **Multi-Node.js version testing** (18.x, 20.x, 22.x)
+
+---
+
+## 📖 Original README Content
+
+GitHub Codespaces ♥️ React
 
 Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
 
 You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you're ready you can click "Publish Branch" and we'll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
 
 This project was bootstrapped for you with [Vite](https://vitejs.dev/).
 
